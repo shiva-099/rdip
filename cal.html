@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="calculator.css">
+<script src="assign.js">
+
+</script>
+</head>
+<body>
+  <div class="form-signup" id="singup">
+    <form  method="get" onsubmit="return validate()">
+      <label for="firstnumber">First Number: <input id="first"  placeholder="Enter First Number"></label><br>
+
+      <label for="secondnumber">Second Number:<input id="second"placeholder="Enter Second Number"></label><br>
+    </form>
+    <label for="answer">Answer<input id="answer" placeholder="Answer" disabled></label><br>
+    <button onclick="add()">Additon</button>
+    <button onclick="sub()">Subtraction</button>
+    <button onclick="mul()">Multiply</button>
+    <button onclick="div()">divison</button>
+    <button onclick="square()">Sqrt</button>
+    <button onclick="abs()">Absolute</button>
+      <button onclick="percent()">Percent</button><br>
+  </div>
+
+</body>
+</html>
